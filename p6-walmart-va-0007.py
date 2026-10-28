@@ -8,8 +8,11 @@ precio=[4000,7000,9000,12000,18000]
 plt.plot(cant_productos,precio)
 plt.show()
 
-# presonalizar grafica
-plt.plot(cant_productos, precio,color="green",marker="o")
-plt.title("ventas de walmart 0007")
-plt.xlabel("cant prod")
-plt.ylabel("precio")
+# personalizar grafica
+plt.plot(cant_productos, precio, color = "red", marker = "o", linestyle = "dashed", linewidth = 2, markersize = 12)
+plt.title("Venta de Walmart 0007")
+plt.xlabel("Cantidad productos")
+plt.ylabel("Precio")
+plt.show()
+
+print("Alexandro Aguilar NC 0007")
